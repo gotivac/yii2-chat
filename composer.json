@@ -1,0 +1,31 @@
+{
+    "name": "gotivac/yii2-chat-threads",
+    "description": "The Yii2 extension module to chat registered users.",
+    "type": "yii2-extension",
+    "keywords": ["Yii2","extension","chat","registered","users"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viacheslav Kolesnikov",
+            "email": "slavko.chita@gmail.com",
+            "homepage": "http://yii2.kadastrcard.ru"
+        },
+        {
+            "name": "Vladimir Arnautović",
+            "email": "gotivac@gmail.com",
+            "homepage": "http://codecharge.me"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/gotivac/yii2-chat-threads.git"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "gotivac\\chat\\": "src/"
+        }
+    }
+}
