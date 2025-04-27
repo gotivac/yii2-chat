@@ -15,7 +15,7 @@
 
 
             <div class="input-group col-sm-12 mt-4">
-                <input id="chat-message" class="form-control" aria-invalid="false"></input>
+                <input id="chat-message" class="form-control" aria-invalid="false"/>
                 <button type="submit" id="send-message" class="btn btn-success" data-thread="<?= $thread; ?>"
                         data-id="<?= $user->id ?>" data-name="<?= $user->chatname ?>"
                         data-icon="<?= $user->chaticon ?>">

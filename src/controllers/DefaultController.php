@@ -13,6 +13,7 @@ class DefaultController extends Controller
 {
     /**
      * Renders the index view for the module
+     * @param null $thread
      * @return string
      */
     public function actionIndex($thread = null)

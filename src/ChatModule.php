@@ -53,6 +53,7 @@ class ChatModule extends \yii\base\Module
                     $this->table,
     				array(
     					'id' => 'int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY',
+                        'thread' => 'varchar(255) DEFAULT NULL',
     					'user_id' => 'int(10) unsigned DEFAULT NULL',
     					'time' => 'int(10) unsigned DEFAULT NULL',
     					'rfc822' => 'varchar(50) DEFAULT NULL',
